@@ -1,7 +1,6 @@
 import { API_KEY } from "./secrets"
 
-// const API_KEY= process.env.REACT_APP_API_KEY
-const BASE_URL = "https://api.unsplash.com"
+const BASE_URL = `https://api.unsplash.com`
 const COUNT = 30
 
 export function getRandomImages() {
